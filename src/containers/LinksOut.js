@@ -4,7 +4,8 @@ export default class LinksOut extends Component {
   render() {
     return (
       <div>
-        Links out
+        Links out:
+        insta, dev, reddit, twitter, discord. 
       </div>
     )
   }

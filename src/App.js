@@ -7,14 +7,13 @@ import Galerie from "./containers/Galerie";
 import Home from "./containers/Home";
 import LinksOut from "./containers/LinksOut";
 import Multimedia from "./containers/Multimedia";
-import logo from "./domi.png";
+import logo from "./name.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p> Arte: pasen y vean </p>
+        <img src={logo} className="App-logo" alt="logo" />        
       </header>
       <nav>
         <NavBar />
