@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Comish from "./containers/Comish";
-import Galerie from "./containers/Galerie";
+import Gallery from "./containers/Gallery";
 import Home from "./containers/Home";
 import LinksOut from "./containers/LinksOut";
 import Multimedia from "./containers/Multimedia";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />        
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
       <nav>
         <NavBar />
@@ -22,8 +22,8 @@ function App() {
         <Route path="/Home">
           <Home />
         </Route>
-        <Route path="/Galerie">
-          <Galerie />
+        <Route path="/Gallery">
+          <Gallery />
         </Route>
         <Route path="/Multimedia">
           <Multimedia />
