@@ -15,25 +15,25 @@ import img_15 from "./images/img_15.png";
 import img_16 from "./images/img_16.png";
 
 const imgData = [
-  { img: img_00, title: "Yaci in modern clothes.", type: "Fullbody" },
-  { img: img_01, title: "in Asra's shop.", type: "Half body, background" },
-  { img: img_02, title: "Just a dream away!", type: "Fullbody,background" },
+  { img: img_00, title: "Yaci in modern clothes.", type: "Fullbody" , width: "700px", },
+  { img: img_01, title: "in Asra's shop.", type: "Half body, background",width: "700px", },
+  { img: img_02, title: "Just a dream away!", type: "Fullbody,background", width: "800px" },
   {
     img: img_03,
     title: "Divinity: Original Sin 2 character.",
-    type: "Fullbody, armor",
+    type: "Fullbody, armor", width: "600px"
   },
-  { img: img_04, title: "C0nill's DTIYS.", type: "Halfbody" },
-  { img: img_05, title: "Arevie.", type: "Halfbody" },
-  { img: img_06, title: "Yaci icon.", type: "Icon" },
-  { img: img_08, title: "Saris Liaron.", type: "Halfbody, background" },
-  { img: img_09, title: "Love and Justice.", type: "Bust, background" },
-  { img: img_10, title: "Oriana.", type: "Fullbody" },
-  { img: img_11, title: "Arevie Starbright.", type: "Fullbody" },
-  { img: img_12, title: "Kiaori.", type: "Halfbody,background" },
-  { img: img_14, title: "The Star.", type: "Halfbody" },
-  { img: img_15, title: "Tully in modern clothes.", type: "Fullbody" },
-  { img: img_16, title: "Yaci : I cuñá payé.", type: "Halfbody" },
+  { img: img_04, title: "C0nill's DTIYS.", type: "Halfbody", width: "800px" },
+  { img: img_05, title: "Arevie.", type: "Halfbody", width: "800px"},
+  { img: img_06, title: "Yaci icon.", type: "Icon", width: "800px" },
+  { img: img_08, title: "Saris Liaron.", type: "Halfbody, background", width: "600px" },
+  { img: img_09, title: "Love and Justice.", type: "Bust, background",width: "800px" },
+  { img: img_10, title: "Oriana.", type: "Fullbody", width: "500px" },
+  { img: img_11, title: "Arevie Starbright.", type: "Fullbody",width: "800px" },
+  { img: img_12, title: "Kiaori.", type: "Halfbody,background", width: "700px", },
+  { img: img_14, title: "The Star.", type: "Halfbody", width: "550px" },
+  { img: img_15, title: "Tully in modern clothes.", type: "Fullbody", width: "600px" },
+  { img: img_16, title: "Yaci : I cuñá payé.", type: "Halfbody",  width: "600px" },
 ];
 
 export default imgData;

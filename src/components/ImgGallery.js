@@ -37,17 +37,15 @@ const useStylesModal = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     border: "2px solid #000",
     boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-    width: "700px",
-    margin: "0 auto",
+    padding: theme.spacing(2, 4, 3), 
+    margin: "0 auto"
   },
   img: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    overflow: "hidden",
-    width: "600px",
-    margin: "0 auto",
+    overflow: "hidden" ,
+    margin: "0 auto"
   },
 }));
 
@@ -91,11 +89,12 @@ export default function ImgGallery() {
                   }}
                 >
                   <Fade in={open}>
-                    <div className={classesModal.paper}>
+                    <div className={classesModal.paper} style={{width:tile.width}}>
                       <img
                         src={tile.img}
                         alt={tile.title}
                         className={classesModal.img}
+                        style={{width:tile.width}}
                       />
                     </div>
                   </Fade>
