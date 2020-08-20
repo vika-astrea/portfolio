@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Comish from "./containers/Comish";
@@ -11,7 +11,7 @@ import logo from "./name.png";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#3a4052"}}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
@@ -19,6 +19,9 @@ function App() {
         <NavBar />
       </nav>
       <Switch>
+      <Route exact path="/">
+    <Redirect to="/home" />
+</Route>
         <Route path="/Home">
           <Home />
         </Route>
