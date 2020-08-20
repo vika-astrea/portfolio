@@ -16,7 +16,8 @@ export default class Home extends Component {
     return (
  
       <div style={{
-        backgroundColor: "#3a4052",
+        backgroundColor:" rgb(2,0,36)",
+background: "linear-gradient(176deg, rgba(2,0,36,1) 0%, rgba(58,64,82,1) 0%, rgba(0,0,0,1) 100%)"
 }}>  
  <img src={home_0} alt="separator" style={{margin: "50px", width:"800px", }} />
    <img src={home_1} alt="hello" style={{margin: "0 auto", width:"1000px"}}/>
