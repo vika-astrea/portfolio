@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: "#3a4052"
+  background-color: "#3a4052";
 }
 
 .App-logo {
@@ -8,15 +8,8 @@
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: #3a4052;
-  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,4 +29,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "dearJoe 5 CASUAL";
+  src: url("./fonts/DearJoe5CASUAL.woff2") format("woff2"),
+    url("./fonts/DearJoe5CASUAL.woff") format("woff"),
+    url("./fonts/DJ5CTRIAL.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  font-family: "dearJoe 5 CASUAL";
+  font-size: xx-large;
+  color: white;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }

@@ -7,11 +7,15 @@ import icon_ig from "../images/icon_ig.png";
 import icon_tube from "../images/icon_tube.png";
 import icon_tumblr from "../images/icon_tumblr.png";
 import icon_twit from "../images/icon_twit.png";
+import Header from "../components/Header";
+import header from "../images/contact_header.png"
+
 
 export default class LinksOut extends Component {
   render() {
     return (
       <div>
+        <Header src={header} />
         <p> Links out:</p>
         <LinkOut
           href={"https://www.instagram.com/vika_astrea/"}

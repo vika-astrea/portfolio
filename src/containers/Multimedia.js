@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+import Header from '../components/Header'
+import header from '../images/videos_header.png'
 
 export default class Multimedia extends Component {
   render() {
     return (
       <div>
-        Multimedia
-        pegar videos que no son míos :p lrem ipsum de videos 
+        <Header src={header}/>
+
       </div>
     )
   }

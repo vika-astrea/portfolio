@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'dearJoe 5 CASUAL';
+    src: url('DearJoe5CASUAL.woff2') format('woff2'),
+        url('DearJoe5CASUAL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
