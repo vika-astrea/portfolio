@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 //Modal
-const useStylesModal = makeStyles((theme) => ({
+export const useStylesModal = makeStyles((theme) => ({
   modal: {
     display: "flex",
     alignItems: "center",
