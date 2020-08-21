@@ -8,20 +8,27 @@ import Home from "./containers/Home";
 import LinksOut from "./containers/LinksOut";
 import Multimedia from "./containers/Multimedia";
 import logo from "./name.png";
+import home_0 from "./images/home_0.png";
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: "#3a4052"}}>
+    <div className="App" style={{ backgroundColor: "#3a4052" }}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <nav>
         <NavBar />
       </nav>
+      <img
+        src={home_0}
+        alt="separator"
+        style={{ marginBottom: "10px",marginTop:"40px", width: "800px", backgroundColor: "#3a4052" }}
+      />
+
       <Switch>
-      <Route exact path="/">
-    <Redirect to="/home" />
-</Route>
+        <Route exact path="/">
+          <Redirect to="/home" />
+        </Route>
         <Route path="/Home">
           <Home />
         </Route>

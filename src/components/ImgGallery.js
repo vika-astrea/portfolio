@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: 700,
-    height: 1500,
+    height: 600,
   },
   icon: {
     color: "rgba(255, 255, 255, 0.54)",
@@ -61,7 +61,11 @@ export default function ImgGallery() {
   };
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} style={{
+      backgroundColor: " rgb(2,0,36)",
+          background:
+            "linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(58,64,82,1) 0%, rgba(0,0,0,1) 100%)"
+    }}>
       <GridList cellHeight={500} className={classes.gridList}>
         {imgData.map((tile, tileIndex) => {
           if (open && index === tileIndex) {

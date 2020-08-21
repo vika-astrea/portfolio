@@ -10,6 +10,7 @@ import img_09 from "./images/img_09.png";
 import img_10 from "./images/img_10.png";
 import img_11 from "./images/img_11.png";
 import img_12 from "./images/img_12.png";
+import img_13 from "./images/img_13.png";
 import img_14 from "./images/img_14.png";
 import img_15 from "./images/img_15.png";
 import img_16 from "./images/img_16.png";
@@ -31,6 +32,7 @@ const imgData = [
   { img: img_10, title: "Oriana.", type: "Fullbody", width: "330px" },
   { img: img_11, title: "Arevie Starbright.", type: "Fullbody",width: "500px" },
   { img: img_12, title: "Kiaori.", type: "Halfbody,background", width: "430px", },
+  { img: img_13, title: "The Song of Dominia.", type: "Fullbody,background", width: "285px", },
   { img: img_14, title: "The Star.", type: "Halfbody", width: "350px" },
   { img: img_15, title: "Tully in modern clothes.", type: "Fullbody", width: "400px" },
   { img: img_16, title: "Yaci : I cuñá payé.", type: "Halfbody",  width: "400px" },
