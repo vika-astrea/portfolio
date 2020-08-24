@@ -32,7 +32,7 @@ function App() {
 
       <Switch>
         <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/Home" />
         </Route>
         <Route path="/Home">
           <Home />
