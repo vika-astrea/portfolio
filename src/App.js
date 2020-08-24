@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Comish from "./containers/Comish";
@@ -31,13 +31,7 @@ function App() {
       />
 
       <Switch>
-        <Route
-          exact
-          path="/"
-          render={() => {
-            return <Redirect to="/Home" />;
-          }}
-        />
+        <Route exact path="/" component={Home}/>          
         <Route path="/Home">
           <Home />
         </Route>
