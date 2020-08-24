@@ -34,10 +34,8 @@ function App() {
         <Route
           exact
           path="/"
-          render={() => {
-            return <Redirect to="/Home" />;
-          }}
-        />
+> <Redirect to="/Home" />;
+         <Route />
         <Route path="/Home">
           <Home />
         </Route>
