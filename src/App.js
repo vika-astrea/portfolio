@@ -31,7 +31,9 @@ function App() {
       />
 
       <Switch>
-        <Route exact path="/portfolio" component={Home}/>          
+        <Route path="/portfolio">    
+        <Home />
+        </Route>      
         <Route path="/Home">
           <Home />
         </Route>
