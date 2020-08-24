@@ -31,7 +31,15 @@ function App() {
       />
 
       <Switch>
+<<<<<<< HEAD
         <Route exact path="/" component={Home}/>          
+=======
+        <Route
+          exact
+          path="/"
+> <Redirect to="/Home" />;
+         <Route />
+>>>>>>> b02db558dba92d4e927543b516dc90f2a6ad206b
         <Route path="/Home">
           <Home />
         </Route>
