@@ -33,11 +33,15 @@ export default function NavBar() {
         </Link>
         <Link to="/Comish">
           {" "}
-          <img src={nav_5} alt="img" style={{marginRight:"10px"}} />
+          <img src={nav_5} alt="img" style={{ marginRight: "10px" }} />
         </Link>
         <Link to="/LinksOut">
           {" "}
-          <img src={nav_6} alt="img" style={{marginRight:"10px", marginLeft:"20px"}} />
+          <img
+            src={nav_6}
+            alt="img"
+            style={{ marginRight: "10px", marginLeft: "20px" }}
+          />
         </Link>
       </nav>
     </div>

@@ -37,15 +37,15 @@ export const useStylesModal = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     border: "2px solid #000",
     boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3), 
-    margin: "0 auto"
+    padding: theme.spacing(2, 4, 3),
+    margin: "0 auto",
   },
   img: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    overflow: "hidden" ,
-    margin: "0 auto"
+    overflow: "hidden",
+    margin: "0 auto",
   },
 }));
 
@@ -61,11 +61,14 @@ export default function ImgGallery() {
   };
 
   return (
-    <div className={classes.root} style={{
-      backgroundColor: " rgb(2,0,36)",
-          background:
-            "linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(58,64,82,1) 0%, rgba(0,0,0,1) 100%)"
-    }}>
+    <div
+      className={classes.root}
+      style={{
+        backgroundColor: " rgb(2,0,36)",
+        background:
+          "linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(58,64,82,1) 0%, rgba(0,0,0,1) 100%)",
+      }}
+    >
       <GridList cellHeight={500} className={classes.gridList}>
         {imgData.map((tile, tileIndex) => {
           if (open && index === tileIndex) {
@@ -93,12 +96,15 @@ export default function ImgGallery() {
                   }}
                 >
                   <Fade in={open}>
-                    <div className={classesModal.paper} style={{width:tile.width}}>
+                    <div
+                      className={classesModal.paper}
+                      style={{ width: tile.width }}
+                    >
                       <img
                         src={tile.img}
                         alt={tile.title}
                         className={classesModal.img}
-                        style={{width:tile.width}}
+                        style={{ width: tile.width }}
                       />
                     </div>
                   </Fade>

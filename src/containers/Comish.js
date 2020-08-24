@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import adition from "../images/comish_adition.png";
 import another from "../images/comish_another.png";
 import contact from "../images/comish_contact.png";
+import sample from "../images/comish_LineSample.png";
 import priceChart from "../images/comish_pricesChart.png";
 import pricing from "../images/comish_pricing.png";
 import process from "../images/comish_process.png";
@@ -41,7 +42,8 @@ export default class Comish extends Component {
             vicdraws@gmail.com
           </a>{" "}
           and tell me you want to commission me and what kind of piece do you
-          want made (is it an icon? a fullbody with background? A short list of what I'm willing to do here).
+          want made (is it an icon? a fullbody with background? A short list of
+          what I'm willing to do here).
           <br /> Be patient and polite, I will answer every request!
         </p>
         <ComishSteps src={pricing} />
@@ -57,19 +59,24 @@ export default class Comish extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
-            Ko-fi{" "}
-          </a>{" "}
+            Ko-fi
+          </a>
         </p>
         <img src={priceChart} alt="priceChart" style={{ width: "800px" }} />
         <ComishSteps src={process} />
         <p>
-          As soon as it is finished, you will receive watermarked detailed
-          lineart so you can see how the piece is comming along. This is the
-          stage to sugest changes in pose, details, etc. Once the revisions are
-          made I will start the coloring process.{" "}
+          As soon as it is finished, you will recieve a watermarked detailed
+          lineart so you can see how the piece is comming along.
         </p>
-        []
+
+        <img src={sample} alt="sample" style={{ width: "800px" }} />
+
+        <p>
+          {" "}
+          This is the stage to sugest changes in pose, details, etc. Once the
+          revisions are made I will start the coloring process.
+        </p>
+
         <ComishSteps src={steps} />
         <p>
           Once the art is done, you'll be notified and then you'll pay the other
@@ -81,8 +88,8 @@ export default class Comish extends Component {
           If there are mistakes in the coloring (wrong colors, skin tones too
           light or too dark, ambient light not working properly) I'll change it
           promptly and without cost. Any other revisions after this point will
-          come with an aditional cost though, so I encourage you to make use of
-          the revision stages.
+          come with an aditional cost of $ 3 though, so I encourage you to make
+          use of the revision stages.
         </p>
         <ComishSteps src={another} />
         <p>

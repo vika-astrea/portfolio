@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Comish from "./containers/Comish";
@@ -7,8 +7,8 @@ import Gallery from "./containers/Gallery";
 import Home from "./containers/Home";
 import LinksOut from "./containers/LinksOut";
 import Multimedia from "./containers/Multimedia";
-import logo from "./name.png";
 import home_0 from "./images/home_0.png";
+import logo from "./name.png";
 
 function App() {
   return (
@@ -22,7 +22,12 @@ function App() {
       <img
         src={home_0}
         alt="separator"
-        style={{ marginBottom: "10px",marginTop:"40px", width: "800px", backgroundColor: "#3a4052" }}
+        style={{
+          marginBottom: "10px",
+          marginTop: "40px",
+          width: "800px",
+          backgroundColor: "#3a4052",
+        }}
       />
 
       <Switch>
