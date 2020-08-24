@@ -31,9 +31,13 @@ function App() {
       />
 
       <Switch>
-        <Route exact path="/">
-          <Redirect to="/Home" />
-        </Route>
+        <Route
+          exact
+          path="/"
+          render={() => {
+            return <Redirect to="/Home" />;
+          }}
+        />
         <Route path="/Home">
           <Home />
         </Route>
