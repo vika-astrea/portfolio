@@ -7,11 +7,13 @@ import { makeStyles } from "@material-ui/core/styles";
 import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
 import React, { useState } from "react";
 import Header from "../components/Header";
-import nadia_color from "../images/nadia_color.mp4";
-import nadia_lines from "../images/nadia_lines.mp4";
 import header from "../images/videos_header.png";
+import ReactPlayer from "react-player";
 
 export default function Multimedia() {
+const nadia_color="https://www.youtube.com/watch?v=sZBLzDKZ4U4&t=4s"
+const nadia_lines="https://www.youtube.com/watch?v=-Y0w2xf6BTU&t=18s"
+
   const [state, setState] = useState(nadia_color);
 
   const useStyles = makeStyles((theme) => ({
@@ -36,10 +38,7 @@ export default function Multimedia() {
     >
       <Header src={header} />
       <div style={{ display: "flex" }}>
-        <video src={state} width="640" height="360" controls>
-          {" "}
-          video not supported
-        </video>
+       <ReactPlayer url={state}/>
         <br />
         <br />
         <div className={classes.root}>
