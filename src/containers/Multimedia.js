@@ -54,7 +54,7 @@ const nadia_lines="https://www.youtube.com/watch?v=-Y0w2xf6BTU&t=18s"
               <ListItemIcon>
                 <PlayCircleFilledIcon />
               </ListItemIcon>
-              <ListItemText primary="The Arcana Nadia Sppedpaint pt.2" />
+              <ListItemText primary="The Arcana Nadia Speedpaint pt.2" />
             </ListItem>
           </List>
         </div>
